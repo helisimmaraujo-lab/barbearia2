@@ -65,7 +65,7 @@ a:hover{
     border-radius: 8px;
 }
 
-button{
+.botao{
     color: white;
     background-color: black;
     padding: 20px;
@@ -74,9 +74,10 @@ button{
     margin-top: 40px;
     margin-left: 30px;
     transition: 0.3s ease;
+
 }
 
-button:hover{
+.botao:hover{
     font-weight: bold;
     color: black;
     background-color: rgb(255, 235, 20);
