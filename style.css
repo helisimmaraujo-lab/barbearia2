@@ -1,0 +1,84 @@
+body{
+    color: white;
+    background-image:url(sergey-kotenev--gWSFS8rrVg-unsplash.jpg);
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header{
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#title{
+    flex-direction: column;
+    line-height: 10px;
+}
+
+h1{
+    font-weight: 200px;
+}
+
+li{
+    margin: 40px;
+    display:inline-block;
+
+}
+
+main{
+    justify-content: space-between;
+    margin-top: 150px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+img{
+border-radius: 8px;
+    max-width: 600px;
+}
+
+h2{
+    font-size: 56px;
+    line-height: 10px;
+}
+
+p{
+    line-height: 20px;
+    max-width: 300px;
+}
+
+a{
+    color: white;
+    transition: 0.3s ease;
+}
+
+span{
+    color: rgb(255, 235, 20);
+}
+
+a:hover{
+    color: rgb(255, 235, 20);
+    border-radius: 8px;
+}
+
+button{
+    color: white;
+    background-color: black;
+    padding: 20px;
+    border-radius: 20px;
+    border: none;
+    margin-top: 40px;
+    margin-left: 30px;
+    transition: 0.3s ease;
+}
+
+button:hover{
+    font-weight: bold;
+    color: black;
+    background-color: rgb(255, 235, 20);
+    transform: translateY(-10px);
+}
