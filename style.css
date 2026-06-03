@@ -1,82 +1,98 @@
-body{
-    color: white;
-    background-image:url(sergey-kotenev--gWSFS8rrVg-unsplash.jpg);
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
+body {
+  color: white;
+  background-image: url(sergey-kotenev--gWSFS8rrVg-unsplash.jpg);
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
 }
 
-header{
-    justify-content: space-between;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+header {
+  justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
-#title{
-    flex-direction: column;
-    line-height: 10px;
+#title {
+  flex-direction: column;
+  line-height: 10px;
 }
 
-h1{
-    font-weight: 200px;
+h1 {
+  font-weight: 200px;
 }
 
-li{
-    margin: 40px;
-    display:inline-block;
-
+li {
+  margin: 40px;
+  display: inline-block;
 }
 
-main{
-    justify-content: space-between;
-    margin-top: 150px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+main {
+  justify-content: space-between;
+  margin-top: 150px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
-img{
-border-radius: 8px;
-    max-width: 600px;
+img {
+  border-radius: 8px;
+  max-width: 600px;
 }
 
-h2{
-    font-size: 56px;
-    line-height: 10px;
+h2 {
+  font-size: 56px;
+  line-height: 10px;
 }
 
-p{
-    line-height: 20px;
-    max-width: 300px;
+p {
+  line-height: 20px;
+  max-width: 300px;
 }
 
-a{
-    color: white;
-    transition: 0.3s ease;
+a {
+  color: white;
+  transition: 0.3s ease;
 }
 
-span{
-    color: rgb(255, 235, 20);
+span {
+  color: rgb(255, 235, 20);
 }
 
-a:hover{
-    color: rgb(255, 235, 20);
-    border-radius: 8px;
+a:hover {
+  color: rgb(255, 235, 20);
+  border-radius: 8px;
 }
 
 .botao {
-    display: inline-block;
-    background-color: black;
-    color: white;
-    padding: 15px 30px;
-    border-radius: 8px;
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 16px;
-    cursor: pointer;
+  display: inline-block;
+  background-color: black;
+  color: white;
+  padding: 15px 30px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
 }
 
 .botao:hover {
-    background-color: #333;
+  background-color: #333;
+}
+
+@media (max-width: 768px) {
+  header{
+   gap:20px;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  main{
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  img{
+    max-width: 300px;
+  }
 }
